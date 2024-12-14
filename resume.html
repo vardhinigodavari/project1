@@ -1,0 +1,62 @@
+import React from "react";
+import './App.css';
+
+const App = () => {
+  return (
+    <div className="container">
+      {/* Left side: Profile and Resume */}
+      <div className="left-side">
+        <img src="profile-photo.jpg" alt="Profile" className="profile-photo" />
+        <h1>Vardhini Godavari</h1>
+        <h2>Software Developer</h2>
+        <p>Experienced software developer with expertise in front-end and back-end technologies.</p>
+
+        <div className="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>JavaScript (React, Node.js)</li>
+            <li>Python</li>
+            <li>SQL & NoSQL Databases</li>
+            <li>Git Version Control</li>
+            <li>C & C++ programming languages</li>
+                  </ul>
+        </div>
+
+        <div className="experience">
+          <h2>Experience</h2>
+          <ul>
+            <li>Software Developer at ABC Corp (2018–Present)</li>
+            <li>Web Developer at XYZ Ltd (2015–2018)</li>
+          </ul>
+        </div>
+
+        <div className="education">
+          <h2>Education</h2>
+          <ul>
+            <li>B.S. in Computer Science, University of Example (2015)</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Right side: Additional Content */}
+      <div className="right-side">
+        <h2>About Me</h2>
+        <p>
+          Passionate about leveraging technology to solve real-world problems, I specialize in building scalable web
+          applications and integrating new tools and frameworks.
+        </p>
+
+        <h2>Projects</h2>
+        <ul>
+          <li>Project One: Full-stack web application built with React and Node.js</li>
+          <li>Project Two: E-commerce platform using Django and PostgreSQL</li>
+        </ul>
+
+        <h2>Contact</h2>
+        <p>Email: johndoe@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+      </div>
+    </div>
+  );
+};
+
